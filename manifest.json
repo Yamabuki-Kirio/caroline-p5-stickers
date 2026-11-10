@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "caroline-p5-stickers",
+  "name": "卡罗莉娜半身表情包",
+  "version": "1.0.0",
+  "description": "Persona 5 卡罗莉娜蓝色狱卒制服，鲜艳配色、无新增瞳孔。5 类半身动态 GIF，240×240；另附 800×800 透明 PNG 母版。",
+  "author": "角色：ATLUS；基础模型画师：0x4682B4（失效药片）；模型与动画：EmoteLab；定制贴图及打包：本地用户与 Codex",
+  "license": "非官方同人；角色权利归相关权利人；基础资产遵循 EmoteLab 使用条款。未取得商业授权。详见 SOURCES.md。",
+  "tags": [
+    "persona5",
+    "caroline",
+    "emotelab",
+    "animated",
+    "gif",
+    "half-body"
+  ],
+  "icon": "previews/cover.jpg",
+  "previews": [
+    "previews/cover.jpg",
+    "previews/overview.webp"
+  ],
+  "categories": {
+    "happy": {
+      "description": "卡罗莉娜开心大笑、得意、庆祝、收到好消息或表达愉快。"
+    },
+    "angry": {
+      "description": "卡罗莉娜生气、凶巴巴地责备、嘴硬、抗议或轻松吐槽。"
+    },
+    "confused": {
+      "description": "卡罗莉娜疑惑、满头问号、没听懂、思考或询问原因。"
+    },
+    "shy": {
+      "description": "卡罗莉娜害羞、脸红、被夸奖、紧张或逞强掩饰不好意思。"
+    },
+    "sleep": {
+      "description": "卡罗莉娜盖被子睡觉、困倦、休息、晚安或暂时离开。"
+    }
+  }
+}

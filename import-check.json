@@ -1,0 +1,16 @@
+{
+  "detected_format": "v2",
+  "format_version": 2,
+  "export_mode": "share",
+  "pack_id": "caroline-p5-stickers",
+  "name": "卡罗莉娜半身表情包",
+  "version": "1.0.0",
+  "image_count": 5,
+  "category_count": 5,
+  "semantic_metadata": false,
+  "semantic_done": 0,
+  "vectors_declared": false,
+  "vectors_present": false,
+  "warnings": [],
+  "test_scope": "Upstream inspect_pack_archive and its original local helper functions, isolated from AstrBot runtime; not a live import or chat-send test."
+}
