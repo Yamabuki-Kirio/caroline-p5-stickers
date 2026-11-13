@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "id": "caroline-p5-stickers",
-  "name": "卡罗莉娜半身表情包",
-  "version": "1.0.0",
-  "description": "Persona 5 卡罗莉娜蓝色狱卒制服，鲜艳配色、无新增瞳孔。5 类半身动态 GIF，240×240；另附 800×800 透明 PNG 母版。",
+  "name": "卡罗莉娜表情包",
+  "version": "1.1.0",
+  "description": "收录 143 张卡罗莉娜 Q 版动态 GIF，按 22 个聊天语义类别整理；附逐图中文描述与标签，不包含本机向量。另附 2 张静态 PNG 参考图。",
   "author": "角色：ATLUS；基础模型画师：0x4682B4（失效药片）；模型与动画：EmoteLab；定制贴图及打包：本地用户与 Codex",
   "license": "非官方同人；角色权利归相关权利人；基础资产遵循 EmoteLab 使用条款。未取得商业授权。详见 SOURCES.md。",
   "tags": [
@@ -12,7 +12,7 @@
     "emotelab",
     "animated",
     "gif",
-    "half-body"
+    "semantic"
   ],
   "icon": "previews/cover.jpg",
   "previews": [
@@ -21,19 +21,80 @@
   ],
   "categories": {
     "happy": {
-      "description": "卡罗莉娜开心大笑、得意、庆祝、收到好消息或表达愉快。"
+      "description": "用于开心、大笑、庆祝、胜利、节日祝福或积极兴奋的回应。"
     },
-    "angry": {
-      "description": "卡罗莉娜生气、凶巴巴地责备、嘴硬、抗议或轻松吐槽。"
+    "cheer": {
+      "description": "用于加油应援、荧光棒、点赞、满分夸奖或收藏支持。"
     },
-    "confused": {
-      "description": "卡罗莉娜疑惑、满头问号、没听懂、思考或询问原因。"
+    "affection": {
+      "description": "用于喜欢、比心、送礼、送花、情书、摸头贴贴或感谢。"
     },
     "shy": {
-      "description": "卡罗莉娜害羞、脸红、被夸奖、紧张或逞强掩饰不好意思。"
+      "description": "用于害羞、脸红、扭捏、被夸奖或不好意思开口。"
+    },
+    "teasing": {
+      "description": "用于玩梗、调侃、吐舌头、装傻、小丑、DUM、67 或轻松吐槽。"
+    },
+    "cool": {
+      "description": "用于得意、装酷、戴墨镜、戴皇冠、摇扇子或自信炫耀。"
+    },
+    "angry": {
+      "description": "用于生气、抗议、血压升高、拿刀拿撬棍等夸张威胁；避免用于真实冲突。"
+    },
+    "refusal": {
+      "description": "用于拒绝、禁止、闭麦、不想听或表示“不行”。"
+    },
+    "sad": {
+      "description": "用于难过、哭泣、委屈、被砸、受伤、生病不舒服或被打击。"
+    },
+    "panic": {
+      "description": "用于慌张、冒冷汗、紧张、害怕、着火了还假装没事。"
+    },
+    "surprised": {
+      "description": "用于震惊、瞪大眼睛、意外、大叫或突然发现。"
+    },
+    "confused": {
+      "description": "用于认真思考、寻找主意、解释知识或还在想该怎么办。"
+    },
+    "dazed": {
+      "description": "用于催眠、头晕、眼冒旋涡、脑子转不动或短暂宕机。"
     },
     "sleep": {
-      "description": "卡罗莉娜盖被子睡觉、困倦、休息、晚安或暂时离开。"
+      "description": "用于困倦、疲惫、低电量、睡觉、蹭枕头或下线休息。"
+    },
+    "work": {
+      "description": "用于上班、坐牢、记笔记、写作业或被工作困住。"
+    },
+    "chill": {
+      "description": "用于摸鱼、玩手机、喝茶喝咖啡、吹风扇、躺床上放松。"
+    },
+    "fun": {
+      "description": "用于唱歌、弹吉他、打游戏、拍照、开车、吃瓜看戏等娱乐活动。"
+    },
+    "food": {
+      "description": "用于吃饭、喝饮料、喝啤酒、吃西瓜零食、馋嘴或投喂。"
+    },
+    "money": {
+      "description": "用于钱、付款、刷卡、红包、打赏、发财或金钱玩笑。"
+    },
+    "greeting": {
+      "description": "用于打招呼、挥手、冒泡出现、摇铃喊人或上线报到。"
+    },
+    "peek": {
+      "description": "用于从边缘探头、偷看、潜水围观或悄悄出现。"
+    },
+    "reply": {
+      "description": "用于按按钮、点头确认、恢复声音或没有强烈情绪的回应。"
     }
+  },
+  "homepage": "https://github.com/Yamabuki-Kirio/caroline-p5-stickers",
+  "source": {
+    "type": "github",
+    "repo": "Yamabuki-Kirio/caroline-p5-stickers",
+    "ref": "main",
+    "subpath": "."
+  },
+  "compat": {
+    "min_plugin_version": "4.0.0"
   }
 }

@@ -1,70 +1,60 @@
-# 卡罗莉娜半身表情包 · Caroline Stickers
+# 卡罗莉娜表情包 · Caroline Stickers
 
-《女神异闻录 5 / Persona 5》卡罗莉娜（Caroline／カロリーヌ）非官方同人聊天表情包，使用 **EmoteLab CoffeeBean 模板与动画**制作，按 **AstrBot Meme Manager** 聊天语义分类。
+《女神异闻录 5 / Persona 5》卡罗莉娜非官方同人表情包，使用 EmoteLab 制作。**v1.1.0：替换旧版五张基础包，现有 143 张动态 GIF，按 22 个聊天语义类别整理，另附 2 张静态 PNG 参考图。**
 
-银灰双丸子、鲜艳蓝金狱卒制服、`X-M-R-N` 帽子，以及角色左眼（画面右侧）的金 V 黑眼罩。采用半身构图，未额外添加瞳孔。
+![分类预览](previews/overview.webp)
 
-![整组预览](previews/overview.webp)
+## 下载和安装
 
-## 下载与导入
+**[下载 v1.1.0 分类完整包](downloads/caroline-stickers-1.1.0.zip?raw=true)**
 
-**[下载 v1.0.0 完整资源包](downloads/caroline-stickers-1.0.0.zip?raw=true)**（约 2.45 MiB）
+在 AstrBot Meme Manager 的“导入与备份”中选择 ZIP；导入摘要应为 **22 类、143 张表情**。也可从本仓库安装，来源为 `Yamabuki-Kirio/caroline-p5-stickers@main`，包 ID 为 `caroline-p5-stickers`。
 
-1. 下载 ZIP，无需手动解压。
-2. 打开 AstrBot Meme Manager WebUI 的“导入与备份”。
-3. 选择 ZIP，检查摘要应为 **5 个分类、5 张动态图**，再确认导入。
-4. 先实际发送一张，确认平台的 GIF 播放、透明背景和文件大小限制，再启用自动选图。
+已经安装旧包时，请通过插件的包更新流程替换；若手动导入会合并分类，先备份并移除旧版五张素材，避免残留。
 
-旧版插件若不支持此格式，可解压后按分类导入 `memes/` 内的 GIF；不要重复导入 `masters/` 内母版。
+包含可复用中文描述和标签，不分发本机向量。安装后按当前向量模型重建索引。`masters/` 的 2 张 PNG 是参考图，不计入自动选图。
 
-## 动态预览
+## 情绪与用途分类
 
-| 开心 / happy | 生气 / angry | 疑惑 / confused |
-| :---: | :---: | :---: |
-| ![开心](memes/happy/caroline_happy.gif) | ![生气](memes/angry/caroline_angry.gif) | ![疑惑](memes/confused/caroline_confused.gif) |
+| 目录 | 中文用途 | GIF 数量 |
+| --- | --- | ---: |
+| `happy` | 开心庆祝 | 6 |
+| `cheer` | 应援赞同 | 7 |
+| `affection` | 喜欢亲昵 | 14 |
+| `shy` | 害羞脸红 | 6 |
+| `teasing` | 调侃玩梗 | 3 |
+| `cool` | 得意耍帅 | 7 |
+| `angry` | 生气抗议 | 13 |
+| `refusal` | 拒绝禁止 | 6 |
+| `sad` | 难过委屈 | 9 |
+| `panic` | 紧张慌张 | 9 |
+| `surprised` | 惊讶意外 | 1 |
+| `confused` | 疑惑思考 | 4 |
+| `dazed` | 宕机头晕 | 3 |
+| `sleep` | 困倦休息 | 6 |
+| `work` | 工作学习 | 9 |
+| `chill` | 放松充电 | 4 |
+| `fun` | 娱乐舞蹈 | 11 |
+| `food` | 饮食投喂 | 11 |
+| `money` | 金钱打赏 | 5 |
+| `greeting` | 招呼上线 | 4 |
+| `peek` | 偷看围观 | 1 |
+| `reply` | 普通回应 | 4 |
 
-| 害羞 / shy | 睡觉 / sleep |
-| :---: | :---: |
-| ![害羞](memes/shy/caroline_shy.gif) | ![睡觉](memes/sleep/caroline_sleep.gif) |
+每张 GIF 只有一个主分类，细节由逐图描述和标签补充。例如“生气工作”归生气，“疲倦工作”归困倦，“普通工作”归工作，避免同一图片重复分发。
 
-## 内容与规格
+分类名参考 [魔理沙表情包](https://github.com/liquidtoy001/astrbot-meme-pack-marisa/tree/v1.0.0) 和 [永雏塔菲表情包](https://github.com/flybode/yctf-taffy-meme-pack)，语义文件结构参考 [和泉妃爱表情包](https://github.com/NooAcc/astrbot-meme-IzumiHiyori)。未复制这些仓库的成品图片或授权声明。
 
-| 分类 | 用途 | 帧数 | 时长 |
-| --- | --- | ---: | ---: |
-| `happy` | 开心、大笑、得意、庆祝 | 20 | 1.0 秒 |
-| `angry` | 生气、抗议、责备、吐槽 | 40 | 2.0 秒 |
-| `confused` | 疑惑、问号、没听懂 | 24 | 1.2 秒 |
-| `shy` | 害羞、脸红、被夸奖 | 20 | 1.0 秒 |
-| `sleep` | 困倦、盖被子、晚安、离开 | 54 | 2.7 秒 |
+## 素材与检查
 
-- 5 张 **240×240 透明 GIF**，20 FPS，无限循环，每张小于 500 KiB。
-- 5 张 **800×800 透明 PNG 母版**，可用于静态表情。
-- `manifest.json`、`memes_data.json`、`meme_pack_export.json` 提供分类和 v2 导入元数据。
-- `previews/` 包含封面、整组预览、动作抽查图。
-- `validation.json`、`checksums.json` 记录原始资源包检查与校验和；`import-check.json` 记录上游压缩包检查。
-- 更详细的导出与使用说明见 [USAGE.md](USAGE.md)。
-
-这是 **五类基础包**，并非全动作合集。睡觉采用盖被子模板，其余为上身与手部半身构图。
-
-## 验证范围
-
-- GIF 全部帧可解码、存在实际动作，并检查帧数、时长与循环设置。
-- 逐帧核对二值透明掩码；角色与道具未触碰画布边界。
-- ZIP 完整性与校验和已检查。
-- 使用 Meme Manager 上游 `inspect_pack_archive` 及其本地辅助函数离线检查：识别为 v2、5 类、5 张、无警告。
-
-**尚未连接实际 AstrBot 实例，未实测 WebUI 导入和聊天发送。** 离线检查不等于目标平台实测。EmoteLab 软件内载入定制角色也未验证；本仓库交付可独立发送的图片，不提供可安装角色工程。
-
-GIF 不支持半透明，本包以 alpha 128 为阈值编码，透明边缘与 PNG 母版不完全一致。
+- 全部素材来自维护者提供的新 ZIP；原始图像字节与中文文件名保留，未缩放、重编码或补帧。
+- `classification.csv` / `classification.json`：逐图分类、描述、原路径、规格与 SHA-256。部分导出文件名与画面不符，修正说明单独列出。
+- `semantic_metadata.json`：143 条路径级中文语义记录；分类根据动作名称和 GIF 中间帧整理，未标记为用户人工确认；不包含向量。
+- `validation.json` / `checksums.json`：全帧解码、文件覆盖和哈希检查。
+- 已离线检查素材和 ZIP；尚未在实际 AstrBot 实例验证安装、索引重建与聊天发送。
 
 ## 来源与权利
 
-- 角色：ATLUS《Persona 5》Caroline／カロリーヌ。[官方角色参考](https://persona5.jp/character/velvet.html)
-- 模板、骨架及动画：[EmoteLab](https://emotelab.app/)，CoffeeBean v1.9；素材画师：**0x4682B4（失效药片）**。
-- 离线工具：[mofei-114/emotelab-skill](https://github.com/mofei-114/emotelab-skill)，第三方工具，非 EmoteLab 官方工具。
-- 风格及分类参考：[anka-afk/seio-stickers@v2026.09.0](https://github.com/anka-afk/seio-stickers/tree/v2026.09.0)，未复制其成品 GIF。
-- 导入协议：[AstrBot Meme Manager](https://github.com/anka-afk/astrbot_plugin_meme_manager)。
+角色归 ATLUS 等相关权利人；基础模型画师为 0x4682B4（失效药片），模型与动画来自 EmoteLab。维护者提供本次导出素材。完整背景见 [SOURCES.md](SOURCES.md)。
 
-这是非官方同人作品，与 ATLUS、EmoteLab 和 AstrBot 官方无隶属关系。角色、基础模型及动画权利归各自权利人；不以开源代码许可证对这些图片作额外授权。未取得原作角色商业授权，建议限个人非商业聊天使用，不用于销售或商品化。使用前请阅读 [EmoteLab 资产使用说明](https://emotelab.app/assets/usage-guide/) 和 [完整来源说明](SOURCES.md)。
-
-仓库与下载包均不包含 EmoteLab 原始图集、骨架、软件文件或其他作者的参考图片。
+非官方同人，未取得商业授权。其他参考包的 MIT、CC 等协议不适用于本包素材；基础资产遵循 EmoteLab 使用条款，不额外授予商业使用权。仓库不含 EmoteLab 软件、骨架或图集。

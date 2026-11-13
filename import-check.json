@@ -1,16 +1,13 @@
 {
-  "detected_format": "v2",
-  "format_version": 2,
-  "export_mode": "share",
-  "pack_id": "caroline-p5-stickers",
-  "name": "卡罗莉娜半身表情包",
-  "version": "1.0.0",
-  "image_count": 5,
-  "category_count": 5,
-  "semantic_metadata": false,
-  "semantic_done": 0,
-  "vectors_declared": false,
-  "vectors_present": false,
-  "warnings": [],
-  "test_scope": "Upstream inspect_pack_archive and its original local helper functions, isolated from AstrBot runtime; not a live import or chat-send test."
+  "version": "1.1.0",
+  "upstream": "anka-afk/astrbot_plugin_meme_manager@main",
+  "checks": {
+    "validate_pack_directory": "passed",
+    "validate_transfer_manifest": "passed",
+    "semantic_path_hash_and_full_coverage": "passed",
+    "zip_crc_and_source_byte_hashes": "passed"
+  },
+  "categories": 22,
+  "gif_count": 143,
+  "real_astrbot_install_tested": false
 }
